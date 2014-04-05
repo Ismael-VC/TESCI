@@ -1,4 +1,4 @@
 TESCI
 =====
 
-Apuntes de clase.
+Apuntes de clase y código.
