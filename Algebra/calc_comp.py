@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-#coding: utf-8
+#!/usr/bin/env python3
 
 
 __author__ = 'Ismael Venegas Castelló' + '\t' + 'ismael.vc1337@gmail.com'
@@ -7,7 +6,7 @@ __date__ = '04 / Abril / 2014'
 
 
 from fractions import Fraction  as F
-from textwrap  import dedent    as dd
+from textwrap  import dedent as dd
 
 
 def calc(expresión=0, precisión=1000):
