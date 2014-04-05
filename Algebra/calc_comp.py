@@ -33,14 +33,14 @@ def calc(expresión=0, precisión=1000):
     frac_real = F.from_float(z.real).limit_denominator(precisión)
     frac_imag = F.from_float(z.imag).limit_denominator(precisión)
     print(dd('''\
-                 {0} =
-                      {1}             {2}
-                 ------------- + ------------- i
-                      {3}             {4}       '''.format(expresión,
-                                                    frac_real.numerator,
-                                                    frac_imag.numerator,
-                                                    frac_real.denominator,
-                                                    frac_imag.denominator)))
+             {0} =
+                  {1}             {2}
+             ------------- + ------------- i
+                  {3}             {4}'''.format(expresión,
+                                                frac_real.numerator,
+                                                frac_imag.numerator,
+                                                frac_real.denominator,
+                                                frac_imag.denominator)))
 
 
 if __name__ == '__main__':
